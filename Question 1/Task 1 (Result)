@@ -1,0 +1,11 @@
+Q- Find the field widths. Work out the minimum number of bits needed for the register field, the 
+operation selection, the LDI immediate, the memory offset, the branch displacement and the 
+JMP target. Show your calculation. (3 marks) 
+
+No of bits to represent 
+    Register fields = 4 (0-15)
+    Operation Selection = 4 (16 operations)
+    immediate (signed constant) = 4 (-8 to +7)
+    memory offset = 4 (-8 to +7)
+    branch displacement = 5 (-16 to +15)
+    JMP target = 8 (unsigned 0 to 255) 
