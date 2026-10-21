@@ -18,7 +18,7 @@ when DONE is high. Also state the output values in the idle state. (4 marks)
 4. Handle waiting. Your FSM must hold the current reading (VALID = 1 and DATA_OUT 
 unchanged) for as long as READY is low. (3 marks)
 
-  The FSM holds the current value as long as Ready = 0 in the states S1, S2, S3.
+  The FSM holds the current value as long as Ready = 0 in the states S1, S2, S3. (as is shown in the diagram and table)
 
 5. Handle completion and reset. After C is accepted, assert DONE for exactly one clock cycle 
 (with VALID = 0), then return to idle. RESET must return the FSM to its initial (idle) state from 
@@ -29,7 +29,7 @@ The flip flops and registers work at the edge of clock, the FSM returns to INIT 
 The Reset part is reflected in the table.
 
 7. Timing Excercise
-8. 
+ 
    <img width="1600" height="515" alt="WhatsApp Image 2026-10-21 at 7 15 19 PM" src="https://github.com/user-attachments/assets/5e880c25-f82f-48ea-ae8b-0e2fffc769e2" />
 
 8.Find the Bug 
