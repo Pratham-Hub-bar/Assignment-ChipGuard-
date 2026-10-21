@@ -1,0 +1,13 @@
+Q - Choose the instruction length. Decide whether 16 bits or 24 bits is enough for your design. 
+Explain your choice.
+
+At least 24 bits is necessary for this design. Let's take BEQ operation.
+The instruction will be like-
+
+            BEQ | Rs1  Rs2  disp  
+No of bits-  4  |  4    4    5
+
+In total it is 17 bits.
+(Which is greater than 16 limit.)
+
+(This is the highest I found as of now.)
