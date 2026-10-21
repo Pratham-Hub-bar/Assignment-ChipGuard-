@@ -3,7 +3,7 @@
 
 <img width="1600" height="747" alt="WhatsApp Image 2026-10-21 at 7 15 17 PM" src="https://github.com/user-attachments/assets/8359286a-e0f7-452f-aa8f-61d2143b152b" />
 (Didn't draw the reset input because it would make it look ugly, but reset makes it so no matter what the state you are in,
- you return to idle state(which is INIT here).
+ you return to idle state(which is INIT here)).
  
 2. Create a state-transition table. Include the current state, relevant inputs, next state, and 
 outputs. (5 marks)
