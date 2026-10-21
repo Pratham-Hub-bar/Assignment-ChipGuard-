@@ -6,7 +6,9 @@ a) Just refer to the table.
   
 b) no two instructions can have same code because -
     if the operations are different then because of the opcodes each will be different.  
+    
     if operation is same then the register values or the signed constant values will change.  
+    
   
 c) A decoder can easily tell which instruction it is looking at by checking the last 4 bits which tell it which operation it is. 
 After that the decoder can find the register and other values too.
