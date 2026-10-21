@@ -1,0 +1,9 @@
+Q - Compare with another design. Briefly explain how your design differs from one with a 
+different instruction length or field layout. Mention one advantage and one disadvantage. (2 
+marks) 
+
+My design is of 24 bits. The other option was 16 bits.
+
+My design advantage:- The other design cannot actually perform the BEQ and BNE operations.
+
+My design disadvantage:- There is a lot of memory wastage at each operation. (B6 - B0) are always zero and hence are just not needed
